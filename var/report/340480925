@@ -1,0 +1,8 @@
+a:5:{i:0;s:325:"Error in file: "C:\OpenServer\domains\test-repo11\app\code\core\Mage\Customer\sql\customer_setup\mysql4-data-upgrade-1.4.0.0.7-1.4.0.0.8.php" - SQLSTATE[HY000]: General error: 2006 MySQL server has gone away, query was: SELECT `eav_entity_type`.* FROM `eav_entity_type` WHERE (`eav_entity_type`.`entity_type_code`='customer')";i:1;s:921:"#0 C:\OpenServer\domains\test-repo11\app\code\core\Mage\Core\Model\Resource\Setup.php(645): Mage::exception('Mage_Core', 'Error in file: ...')
+#1 C:\OpenServer\domains\test-repo11\app\code\core\Mage\Core\Model\Resource\Setup.php(392): Mage_Core_Model_Resource_Setup->_modifyResourceDb('data-upgrade', false, '1.6.2.0.3')
+#2 C:\OpenServer\domains\test-repo11\app\code\core\Mage\Core\Model\Resource\Setup.php(289): Mage_Core_Model_Resource_Setup->_installData('1.6.2.0.3')
+#3 C:\OpenServer\domains\test-repo11\app\code\core\Mage\Core\Model\Resource\Setup.php(269): Mage_Core_Model_Resource_Setup->applyDataUpdates()
+#4 C:\OpenServer\domains\test-repo11\app\code\core\Mage\Core\Model\App.php(351): Mage_Core_Model_Resource_Setup::applyAllDataUpdates()
+#5 C:\OpenServer\domains\test-repo11\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#6 C:\OpenServer\domains\test-repo11\index.php(87): Mage::run('', 'store')
+#7 {main}";s:3:"url";s:36:"/index.php/install/wizard/installDb/";s:11:"script_name";s:10:"/index.php";s:4:"skin";s:7:"default";}
